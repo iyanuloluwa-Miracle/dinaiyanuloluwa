@@ -1,5 +1,26 @@
-# Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Dina Iyanuloluwa Anuoluwapo Portfolio 🎖️  
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Welcome to my portfolio! Explore my work and projects that showcase my skills and expertise in frontend development.  
+
+🌐 **Live Site:** [dinaiyanuloluwa.vercel.app](https://dinaiyanuloluwa.vercel.app/)  
+📧 **Contact Me:** [iyanudina@gmail.com](mailto:iyanudina@gmail.com)  
+
+---
+
+## 🌟 **Tech Stack**  
+- **Vue.js**: A progressive JavaScript framework for building user interfaces.  
+- **Tailwind CSS**: A utility-first CSS framework for fast and responsive design.  
+- **GSAP (GreenSock Animation Platform)**: For creating rich, interactive animations on the web.  
+
+---
+
+## 🛠️ **Features**  
+- Clean and responsive design.  
+- Dynamic animations and transitions.  
+- Fast and optimized user experience.  
+
+---
+
+## 📫 **Get in Touch**  
+Feel free to reach out for collaborations, feedback, or opportunities. I'd love to hear from you!  
