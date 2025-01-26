@@ -1,6 +1,6 @@
 <!-- src/pages/index.vue -->
 <template>
-  <div>
+  <div class="px-4 sm:px-6 lg:px-8">
     <Navbar />
 
     <div class="my-10">
