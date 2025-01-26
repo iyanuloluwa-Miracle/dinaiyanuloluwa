@@ -10,12 +10,13 @@
 
       <div class="mx-auto flex items-center justify-center">
         <span class="text-gray-600 mx-1">B.sc degree </span> @
-        <RouterLink
-          to="https://web.oouagoiwoye.edu.ng/"
+        <a
+        href="https://web.oouagoiwoye.edu.ng/"
+         target="_blank"
           class="underline flex items-end text-center mx-1 hover:text-orange-500 transition-colors duration-200"
         >
           Olabisi Onabanjo University <ArrowUpRight class="h-5 w-5" />
-        </RouterLink>
+        </a>
       </div>
 
       <div class="flex items-center justify-center my-4">
@@ -35,19 +36,21 @@
               I am a passionate and results-driven Software Engineer with over 2
               years of experience in building scalable and efficient solutions.
               As an alumnus of the
-              <RouterLink
-                to="https://hng.tech/"
+              <a
+                href="https://hng.tech/"
+                target="_blank"
                 class="underline text-orange-500 hover:text-orange-600 transition-colors duration-200"
               >
                 HNG Internship
-              </RouterLink>
+              </a>
               and
-              <RouterLink
-                to="https://www.zuri.team/"
+              <a
+              href="https://www.zuri.team/"
+               target="_blank"
                 class="underline text-orange-500 hover:text-orange-600 transition-colors duration-200"
               >
-                Zuri Training,
-              </RouterLink>
+                Zuri Training
+              </a>
               I have honed my skills in backend development, cloud
               infrastructure, and intelligent automation. I hold a Bachelor's
               degree in Mechanical Engineering, but my passion for technology
@@ -73,12 +76,13 @@
               I am deeply passionate about open-source development and believe
               in the power of collaboration. Most of my side projects are
               publicly available on
-              <RouterLink
-                to="https://github.com/iyanuloluwa-Miracle"
+              <a
+              href="https://github.com/iyanuloluwa-Miracle"
+               target="_blank"
                 class="underline text-orange-500 hover:text-orange-600 transition-colors duration-200"
               >
                 GitHub - @iyanuloluwa-Miracle
-              </RouterLink>
+              </a>
               , where I share libraries, SDKs, and tools that I’ve built. These
               projects span various domains, including web frameworks, payment
               gateways, automation, and bot development. I aim to contribute to
