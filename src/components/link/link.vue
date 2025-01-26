@@ -3,7 +3,7 @@
   <a 
     :href="href" 
     target="_blank" 
-    class="text-blue-500 underline flex items-end"
+    class="text-orange-500 underline flex items-end"
     :class="className"
   >
     <slot></slot>

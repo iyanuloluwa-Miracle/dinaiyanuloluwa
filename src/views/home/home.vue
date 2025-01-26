@@ -73,7 +73,7 @@
   </div>
 </template>
       
-  <script setup>
+<script setup>
 import Navbar from "../../components/navbar/index.vue";
 import { ArrowUpRight } from "lucide-vue-next";
 import gsap from "gsap";
