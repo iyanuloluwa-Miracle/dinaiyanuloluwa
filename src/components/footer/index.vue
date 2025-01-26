@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full overflow-x-hidden ml-2 lg:ml-8">
+    <div class="w-full overflow-x-hidden">
       <h1 class="text-2xl font-bold">Contact Me.</h1>
       <p class="flex gap-1 my-4 flex-wrap">
         <span class="text-gray-500">Reach out to me</span>

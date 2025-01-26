@@ -5,12 +5,12 @@
 
     <div class="my-10">
       <div class="content-section">
-        <h1 class="text-4xl lg:text-[50px] ml-2 lg:ml-8">
+        <h1 class="text-4xl lg:text-[50px]  ">
           Transforming Digital Landscapes Engineering
         </h1>
         <br />
         <br />
-        <div class="text-base lg:text-[20px] mt-4 ml-2 lg:ml-8">
+        <div class="text-base lg:text-[20px] mt-4 ">
           <p>
             Software engineer specializing in intelligent automation,
             user-friendly interfaces, and robust backend systems.

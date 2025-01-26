@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full">
+  <div class="w-full sticky top-0 bg-white z-40">
     <div class="container mx-auto p-2 my-6">
       <nav class="flex items-center justify-between">
         <!-- Logo and Name Section -->
@@ -56,38 +56,40 @@
         </div>
       </nav>
 
-      <!-- Mobile Menu -->
-      <div 
-        v-if="isMobileMenuOpen" 
-        class="lg:hidden absolute left-0 right-0"
-      >
-        <div class="flex flex-col">
-          <RouterLink
-            v-for="link in navigationLinks"
-            :key="link.path"
-            :to="link.path"
-            :class="{
-              'text-black font-semibold': route.path === link.path,
-              'text-gray-600': route.path !== link.path,
-            }"
-            class="px-4 py-3 block"
-            @click="toggleMobileMenu"
-          >
-            {{ link.name }}
-          </RouterLink>
+      <!-- Mobile Menu with Transition -->
+      <transition name="slide">
+        <div 
+          v-if="isMobileMenuOpen" 
+          class="lg:hidden fixed inset-0 bg-white z-50 mt-16 overflow-y-auto"
+        >
+          <div class="flex flex-col">
+            <RouterLink
+              v-for="link in navigationLinks"
+              :key="link.path"
+              :to="link.path"
+              :class="{
+                'text-black font-semibold': route.path === link.path,
+                'text-gray-600': route.path !== link.path,
+              }"
+              class="px-6 py-4 hover:bg-gray-100 transition-colors duration-200"
+              @click="toggleMobileMenu"
+            >
+              {{ link.name }}
+            </RouterLink>
+          </div>
+          <div class="flex justify-center space-x-6 py-6 border-t border-gray-200">
+            <a
+              v-for="social in socialLinks"
+              :key="social.name"
+              :href="social.url"
+              target="_blank"
+              class="text-gray-600 hover:text-black hover:scale-110 transition-all duration-200"
+            >
+              <component :is="social.icon" :size="20" :stroke-width="1.5" />
+            </a>
+          </div>
         </div>
-        <div class="flex justify-left space-x-6 py-4">
-          <a
-            v-for="social in socialLinks"
-            :key="social.name"
-            :href="social.url"
-            target="_blank"
-            class="text-gray-600 hover:text-black hover:scale-110 transition-all duration-200"
-          >
-            <component :is="social.icon" :size="20" :stroke-width="1.5" />
-          </a>
-        </div>
-      </div>
+      </transition>
     </div>
   </div>
 </template>
@@ -102,6 +104,7 @@ const isMobileMenuOpen = ref(false);
 
 const toggleMobileMenu = () => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value;
+  document.body.classList.toggle("overflow-hidden", isMobileMenuOpen.value);
 };
 
 const navigationLinks = [
@@ -117,3 +120,15 @@ const socialLinks = [
   { name: "Linkedin", url: "https://linkedin.com", icon: Linkedin },
 ];
 </script>
+
+<style scoped>
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.3s ease;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateX(-100%);
+}
+</style>
