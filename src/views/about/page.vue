@@ -9,7 +9,7 @@
       <br />
 
       <div class="mx-auto flex items-center justify-center">
-        <span class="text-gray-600 mx-1">CS Major </span> @
+        <span class="text-gray-600 mx-1">B.sc degree </span> @
         <RouterLink
           to="https://web.oouagoiwoye.edu.ng/"
           class="underline flex items-end text-center mx-1 hover:text-orange-500 transition-colors duration-200"
@@ -43,10 +43,10 @@
               </RouterLink>
               and
               <RouterLink
-                to="#"
+                to="https://www.zuri.team/"
                 class="underline text-orange-500 hover:text-orange-600 transition-colors duration-200"
               >
-                Uptick Software Engineering Bootcamp,
+                Zuri Training,
               </RouterLink>
               I have honed my skills in backend development, cloud
               infrastructure, and intelligent automation. I hold a Bachelor's
@@ -106,6 +106,8 @@
         </div>
       </div>
     </div>
+    
+    <Footer />
   </div>
 </template>
 
@@ -115,6 +117,7 @@ import Navbar from "../../components/navbar/index.vue";
 import { RouterLink } from "vue-router";
 import { ArrowUpRight } from "lucide-vue-next";
 import gsap from "gsap";
+import Footer from "../../components/footer/index.vue";
 
 onMounted(() => {
   gsap.fromTo(
