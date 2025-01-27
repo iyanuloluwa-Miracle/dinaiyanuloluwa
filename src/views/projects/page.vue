@@ -68,6 +68,7 @@
       </div>
     </div>
   </div>
+  <Footer/>
 </template>
 
 
@@ -77,7 +78,7 @@ import { ref, computed, onMounted } from "vue";
 import { RouterLink } from "vue-router";
 import { ArrowUpRight } from "lucide-vue-next";
 import gsap from "gsap";
-
+import Footer from "../../components/footer/index.vue";
 // State
 const selectedTag = ref("All");
 const searchQuery = ref("");
