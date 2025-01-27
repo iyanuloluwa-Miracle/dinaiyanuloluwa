@@ -141,27 +141,20 @@ const projects = [
     url: "https://getunicon.vercel.app/",
   },
   {
-    name: "Flames",
+    name: "LinkMagic",
     tag: "Web App",
     description:
-      "Flames is a web application that helps users check their compatibility with their crushes.",
-    languages: ["TypeScript", "NextJS", "ShadcnUI"],
-    url: "https://flames.brimble.app",
+      "A url shortening web app that allows users to shorten long urls and copy the shortened link.",
+    languages: ["Vuejs", "tailwindcss", "Pinia (State Management)", "Fetch API"],
+    url: "https://link-magic.vercel.app/",
   },
+  
   {
-    name: "Linq",
+    name: "Holmen Tech Consulting redesign ",
     tag: "Web App",
-    description:
-      "Linq is an open-source tool that simplifies social sharing by allowing users to generate shareable links for their content.",
-    languages: ["TypeScript", "NextJS", "ShadcnUI"],
-    url: "https://uselinq.vercel.app",
-  },
-  {
-    name: "Blazor Weather App",
-    tag: "Web App",
-    description: "A weather app built with Blazor and OpenWeatherAPI.",
-    languages: ["C#", "Blazor", "DaisyUI"],
-    url: "https://github.com/adedoyin-emmanuel/blazor-weather-app",
+    description: "Website redesign for Holmen Tech Consulting Firm.",
+    languages: ["Vuejs", "Tailwindcss"],
+    url: "https://holmen-consulting-firm.vercel.app/",
   },
   {
     name: "Anime Verse",
@@ -172,12 +165,12 @@ const projects = [
     url: "https://github.com/iyanuloluwa-Miracle/anime_verse",
   },
   {
-    name: "Prokeep API",
+    name: "LinkMagic API",
     tag: "API",
     description:
       "A simple product API built with ASP.NET CORE, Entity Framework, and Postgres SQL.",
-    languages: ["C#", "ASP.NET", "EFCORE", "MYSQL"],
-    url: "https://github.com/adedoyin-emmanuel/prokeep-api",
+    languages: ["Nestjs", "MongoDB", "TypeScript"],
+    url: "https://github.com/iyanuloluwa-Miracle/LINK_MAGIC_BACKEND",
   },
 ];
 
