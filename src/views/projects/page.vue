@@ -169,7 +169,7 @@ const projects = [
     name: "LinkMagic API",
     tag: "API",
     description:
-      "A simple product API built with ASP.NET CORE, Entity Framework, and Postgres SQL.",
+      "A simple product API built with Nestjs and MongoDB for the LinkMagic web application.",
     languages: ["Nestjs", "MongoDB", "TypeScript"],
     url: "https://github.com/iyanuloluwa-Miracle/LINK_MAGIC_BACKEND",
   },
