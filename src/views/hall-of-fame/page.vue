@@ -34,99 +34,74 @@
       <h2 class="text-2xl font-bold mb-4">Professional Achievements</h2>
       <ul class="list-disc list-inside">
         <li>
-          Graduate of Uptick Software Engineering Program Cohort 1
-          <a
-            href="#"
-            target="_blank"
-            class="underline text-blue-500"
-          >
-             Uptick
-          </a>
-          , certified as a Software Engineer graduate, specialized in backend
-          development.
+          Graduated from the
+          <a href="#" target="_blank" class="underline text-blue-500"
+            >Uptick Software Engineering Program (Cohort 1)</a
+          >, earning certification as a Software Engineer with a specialization
+          in backend development.
         </li>
 
         <li>
-          Led team
+          Collaborated with Adedoyin and Henry to secure the
+          <strong>First Runner-Up</strong> position at the
           <a
-            href="https://taikai.network/hackbox/hackathons/webfusionlagos/projects/clpk6l8s300bi0z01tim9nv28/idea"
+            href="https://taikai.network/hackbox/hackathons/webfusionlagos/projects"
             target="_blank"
             class="underline text-blue-500"
-          >
-            KEGHA
-          </a>
-          to secure First position in the
-          <a
-            href="taikai.network/hackbox/hackathons/webfusionlagos/projects"
-            target="_blank"
-            class="underline text-blue-500"
-          >
-            NEAR Web Fusion 2023 Hackathon
-          </a>
-          , developing innovative solutions under tight deadlines.
+            >ERCASPAY Hackathon</a
+          >, delivering innovative solutions under tight deadlines.
         </li>
 
         <li>
-          Led team
+          Collaborated with Adedoyin on
           <a
             href="https://github.com/iyanuloluwa-Miracle/UNICON-BACKEND"
             target="_blank"
             class="underline text-blue-500"
+            >Unicon</a
           >
-            Unicon
-          </a>
-          to a 4th place finish in the
+          project, achieving a <strong>4th Place</strong> finish in the
           <a
             href="https://squadco.com/hackathon/"
             target="_blank"
             class="underline text-blue-500"
-          >
-            Squad 2024 Hackathon by GTBank
-          </a>
+            >Squad 2024 Hackathon by GTBank</a
+          >.
         </li>
 
         <li>
-          Received a
+          Led a team of 4 to a <strong>First Place</strong> finish at the
           <a
-            href="https://devpost.com/software/caresync-melncs"
+            href="https://testfest.ng/"
             target="_blank"
             class="underline text-blue-500"
+            >TestFest2024</a
           >
-            honorary award
-          </a>
-          at
-          <a
-            href="https://lec-hacks-2023.devpost.com/"
-            target="_blank"
-            class="underline text-blue-500"
-          >
-            NorCal Hacks 2023
-          </a>
-          for building an innovative solution.
+          API hackathon, showcasing exceptional problem-solving skills and
+          teamwork.
         </li>
 
         <li>
+          Collaborated with Tobi to achieve First Place in the
           <a
-            href="https://hng.tech"
+            href="https://testfest.ng/"
             target="_blank"
             class="underline text-blue-500"
           >
-            HNGX Finalist
+            HiiL Justice Hackathon
           </a>
-          specialized as a Backend Engineer, ranked among the top 300 out of
-          11,000 participants in an internship program.
+          for developing solutions to address domestic violence
         </li>
 
         <li>
+          Graduated from the
           <a
             href="https://www.zuri.team/"
             target="_blank"
             class="underline text-blue-500"
-          >
-            Zuri Training
-          </a>
-          graduate, specialized in backend development,
-        </li> 
+            >Zuri Training Program</a
+          >, specializing in backend development.
+        </li>
       </ul>
     </section>
 
@@ -143,7 +118,7 @@
             alt="Hackathon Image 1"
             class="w-full h-auto rounded-lg"
           />
-          <p class="text-gray-600 mt-2">NEAR Web Fusion 2023 Hackathon</p>
+          <p class="text-gray-600 mt-2">ERCASPAY HACKATHON</p>
         </div>
 
         <!-- Image 2 -->
@@ -163,7 +138,7 @@
             alt="Hackathon Image 3"
             class="w-full h-auto rounded-lg"
           />
-          <p class="text-gray-600 mt-2">NorCal Hacks 2023</p>
+          <p class="text-gray-600 mt-2">TestFest2024</p>
         </div>
 
         <!-- Image 4 -->
@@ -173,7 +148,7 @@
             alt="Hackathon Image 4"
             class="w-full h-auto rounded-lg"
           />
-          <p class="text-gray-600 mt-2">Hackathon 4</p>
+          <p class="text-gray-600 mt-2">HiiL Justice Hackathon</p>
         </div>
 
         <!-- Image 5 -->
