@@ -38,7 +38,7 @@
       <ul class="list-disc list-inside">
         <li>
           Graduated from the
-          <a href="#" target="_blank" class="underline text-blue-500"
+          <a href="#" target="_blank" class="underline text-orange-500"
             >Uptick Software Engineering Program (Cohort 1)</a
           >, earning certification as a Software Engineer with a specialization
           in backend development.
@@ -50,7 +50,7 @@
           <a
             href="https://taikai.network/hackbox/hackathons/webfusionlagos/projects"
             target="_blank"
-            class="underline text-blue-500"
+            class="underline text-orange-500"
             >ERCASPAY Hackathon</a
           >, delivering innovative solutions under tight deadlines.
         </li>
@@ -60,14 +60,14 @@
           <a
             href="https://github.com/iyanuloluwa-Miracle/UNICON-BACKEND"
             target="_blank"
-            class="underline text-blue-500"
+            class="underline text-orange-500"
             >Unicon</a
           >
           project, achieving a <strong>4th Place</strong> finish in the
           <a
             href="https://squadco.com/hackathon/"
             target="_blank"
-            class="underline text-blue-500"
+            class="underline text-orange-500"
             >Squad 2024 Hackathon by GTBank</a
           >.
         </li>
@@ -77,7 +77,7 @@
           <a
             href="https://testfest.ng/"
             target="_blank"
-            class="underline text-blue-500"
+            class="underline text-orange-500"
             >TestFest2024</a
           >
           API hackathon, showcasing exceptional problem-solving skills and
@@ -89,7 +89,7 @@
           <a
             href="https://testfest.ng/"
             target="_blank"
-            class="underline text-blue-500"
+            class="underline text-orange-500"
           >
             HiiL Justice Hackathon
           </a>
@@ -101,9 +101,18 @@
           <a
             href="https://www.zuri.team/"
             target="_blank"
-            class="underline text-blue-500"
+            class="underline text-orange-500"
             >Zuri Training Program</a
           >, specializing in backend development.
+        </li>
+
+        <li>
+          <a
+            href="https://www.zuri.team/"
+            target="_blank"
+            class="underline text-orange-500"
+            >HNG9 Finalist</a
+          >, ranked among the top 300 out of 11,000 participants in an internship program.
         </li>
       </ul>
     </section>
