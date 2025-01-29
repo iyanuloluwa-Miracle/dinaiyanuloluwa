@@ -48,7 +48,7 @@
           Collaborated with Adedoyin and Henry to secure the
           <strong>First Runner-Up</strong> position at the
           <a
-            href="https://taikai.network/hackbox/hackathons/webfusionlagos/projects"
+            href="https://github.com/Adedoyin-Emmanuel/ercaspay-js-sdk"
             target="_blank"
             class="underline text-orange-500"
             >ERCASPAY Hackathon</a
@@ -75,7 +75,7 @@
         <li>
           Led a team of 4 to a <strong>First Place</strong> finish at the
           <a
-            href="https://testfest.ng/"
+            href="https://x.com/testfest_?lang=en"
             target="_blank"
             class="underline text-orange-500"
             >TestFest2024</a
@@ -87,7 +87,7 @@
         <li>
           Collaborated with Tobi to achieve First Place in the
           <a
-            href="https://testfest.ng/"
+            href="https://www.hiil.org/"
             target="_blank"
             class="underline text-orange-500"
           >
@@ -108,7 +108,7 @@
 
         <li>
           <a
-            href="https://www.zuri.team/"
+            href="https://hng.tech/"
             target="_blank"
             class="underline text-orange-500"
             >HNG9 Finalist</a
