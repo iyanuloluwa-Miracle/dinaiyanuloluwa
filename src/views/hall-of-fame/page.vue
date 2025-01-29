@@ -1,6 +1,9 @@
 <template>
-  <Navbar />
-  <div class="my-8 content-section">
+  <div class="px-4 sm:px-6 lg:px-8">
+    
+    <Navbar />
+
+    <div class="my-8 content-section">
     <h1 class="lg:text-[50px] text-3xl text-center font-bold">Hall Of Fame</h1>
     <div class="text-center mt-4 text-gray-600">
       Celebrating milestones, achievements, and key contributions.
@@ -173,6 +176,10 @@
       </div>
     </section>
   </div>
+
+  </div>
+ 
+  
 </template>
 
 <script setup>
