@@ -35,7 +35,7 @@
             class="rounded-lg mx-auto lg:my-0 my-4 shadow-lg"
           />
 
-          <div class="lg:my-0 my-3">
+          <div class="lg:my-0 my-3 px-4 md:px-0">
             <p class="text-lg leading-relaxed">
               I am a passionate and results-driven Software Engineer with over 2
               years of experience in building scalable and efficient solutions.
