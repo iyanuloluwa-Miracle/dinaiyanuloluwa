@@ -1,5 +1,9 @@
 <template>
+  <div class="px-4 sm:px-6 lg:px-8">
     <Navbar />
+
+  </div>
+   
     <div class="my-4 content-section">
     <h1 class="lg:text-[50px] text-3xl text-center font-bold">
       My Projects
@@ -68,7 +72,12 @@
       </div>
     </div>
   </div>
-  <Footer/>
+
+  <div class="px-4 sm:px-6 lg:px-8 mt-8">
+    <Footer/>
+
+  </div>
+  
 </template>
 
 

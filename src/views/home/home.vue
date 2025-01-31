@@ -75,6 +75,7 @@
       
 <script setup>
 import Navbar from "../../components/navbar/index.vue";
+//import resumePDF from '@/assets/Dina-Iyanuloluwa-FlowCV-Resume-20241030.pdf'
 import { ArrowUpRight } from "lucide-vue-next";
 import gsap from "gsap";
 import ColoredLink from "../../components/link/link.vue";
