@@ -30,11 +30,11 @@
             <ColoredLink href="https://www.medistorepro.com/">
                 Medistorepro
             </ColoredLink>
-            <ColoredLink href="https://link-magic.vercel.app/">
-              LinkMagic
+            <ColoredLink href="https://dshelf-rust.vercel.app/">
+              DShelf
             </ColoredLink>
-            <ColoredLink href="https://github.com/iyanuloluwa-Miracle/TEAM-6-PURPLE">
-              Travel&Tourism API
+            <ColoredLink href="https://holmen-consulting-firm.vercel.app/">
+              HolmenTech Website
             </ColoredLink>
             <ColoredLink href="https://gencode-sigma.vercel.app/">
               GenCode
