@@ -1,17 +1,14 @@
 <template>
   <div class="px-4 sm:px-6 lg:px-8">
     <Navbar />
-
   </div>
-   
-    <div class="my-4 content-section">
-    <h1 class="lg:text-[50px] text-3xl text-center font-bold">
-      My Projects
-    </h1>
+
+  <div class="my-4 content-section">
+    <h1 class="lg:text-[50px] text-3xl text-center font-bold">My Projects</h1>
 
     <div class="mx-auto flex items-center justify-center md:w-[600px] mb-4">
       <span class="text-gray-600 mx-1 my-10">
-        "Innovation thrives where determination meets creativity." — 
+        "Innovation thrives where determination meets creativity." —
         <RouterLink to="/projects" class="underline inline text-black">
           Dina Iyanuloluwa
         </RouterLink>
@@ -41,7 +38,9 @@
       </button>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full mx-auto p-2">
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full mx-auto p-2"
+    >
       <div
         v-for="project in filteredProjects"
         :key="project.name"
@@ -74,15 +73,12 @@
   </div>
 
   <div class="px-4 sm:px-6 lg:px-8 mt-8">
-    <Footer/>
-
+    <Footer />
   </div>
-  
 </template>
 
-
 <script setup>
-import Navbar from '../../components/navbar/index.vue';
+import Navbar from "../../components/navbar/index.vue";
 import { ref, computed, onMounted } from "vue";
 import { RouterLink } from "vue-router";
 import { ArrowUpRight } from "lucide-vue-next";
@@ -110,6 +106,24 @@ const projects = [
     languages: ["TypeScript"],
     url: "https://github.com/Adedoyin-Emmanuel/ercaspay-js-sdk",
   },
+  {
+    name: "DShelf API",
+    tag: "API",
+    description:
+      "Backend API built to power the DShelf web application, enabling seamless book exchanges between students.",
+    languages: ["JavaScript", "Express.js", "MongoDB"],
+    url: "https://github.com/iyanuloluwa-Miracle/DSHELF_STARTUP_PROJECT",
+  },
+
+  {
+    name: "DShelf",
+    tag: "Web App",
+    description:
+      "A marketplace platform where students can buy, sell, or trade textbooks, creating an affordable and sustainable academic resource exchange.",
+    languages: ["React.js", "TailwindCSS"],
+    url: "https://dshelf-rust.vercel.app/",
+  },
+
   {
     name: "Travel and Tourism API",
     tag: "API",
@@ -155,10 +169,15 @@ const projects = [
     tag: "Web App",
     description:
       "A url shortening web app that allows users to shorten long urls and copy the shortened link.",
-    languages: ["Vuejs", "tailwindcss", "Pinia (State Management)", "Fetch API"],
+    languages: [
+      "Vuejs",
+      "tailwindcss",
+      "Pinia (State Management)",
+      "Fetch API",
+    ],
     url: "https://link-magic.vercel.app/",
   },
-  
+
   {
     name: "Holmen Tech Consulting redesign ",
     tag: "Web App",
@@ -171,7 +190,7 @@ const projects = [
     tag: "Web App",
     description:
       "Search destination for discovering new anime, manga, and light novels.",
-    languages: ["Vuejs", "Tailwindcss","api.jikan.moe"],
+    languages: ["Vuejs", "Tailwindcss", "api.jikan.moe"],
     url: "https://github.com/iyanuloluwa-Miracle/anime_verse",
   },
   {
@@ -190,10 +209,13 @@ const tags = ["All", ...new Set(projects.map((project) => project.tag))];
 // Filtered Projects
 const filteredProjects = computed(() => {
   return projects.filter((project) => {
-    const matchesTag = selectedTag.value === "All" || project.tag === selectedTag.value;
+    const matchesTag =
+      selectedTag.value === "All" || project.tag === selectedTag.value;
     const matchesSearch = searchQuery.value
       ? project.name.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
-        project.description.toLowerCase().includes(searchQuery.value.toLowerCase())
+        project.description
+          .toLowerCase()
+          .includes(searchQuery.value.toLowerCase())
       : true;
     return matchesTag && matchesSearch;
   });
@@ -208,7 +230,6 @@ onMounted(() => {
   );
 });
 </script>
-
 
 <!-- <script>
 
