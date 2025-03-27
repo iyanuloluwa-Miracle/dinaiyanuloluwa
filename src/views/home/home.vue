@@ -22,6 +22,12 @@
             >
               JamaJama
             </ColoredLink>
+
+            <ColoredLink
+              href="https://www.rccgcogs.com/"
+            >
+              RCCG Website
+            </ColoredLink>
             <ColoredLink
               href="https://github.com/Adedoyin-Emmanuel/ercaspay-js-sdk"
             >
@@ -33,12 +39,7 @@
             <ColoredLink href="https://dshelf-rust.vercel.app/">
               DShelf
             </ColoredLink>
-            <ColoredLink href="https://holmen-consulting-firm.vercel.app/">
-              HolmenTech Website
-            </ColoredLink>
-            <ColoredLink href="https://gencode-sigma.vercel.app/">
-              GenCode
-            </ColoredLink>
+        
           </div>
 
           <br />
