@@ -110,8 +110,9 @@ const toggleMobileMenu = () => {
 const navigationLinks = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
-  { name: "Projects", path: "/projects" },
   { name: "Hall Of Fame", path: "/hall-of-fame" },
+  { name: "Projects", path: "/projects" },
+
 ];
 
 const socialLinks = [

@@ -121,7 +121,7 @@ const projects = [
     description:
       "A marketplace platform where students can buy, sell, or trade textbooks, creating an affordable and sustainable academic resource exchange.",
     languages: ["React.js", "TailwindCSS"],
-    url: "https://dshelf-rust.vercel.app/",
+    url: "https://www.dshelf.store/",
   },
 
   {

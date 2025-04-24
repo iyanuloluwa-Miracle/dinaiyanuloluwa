@@ -33,12 +33,15 @@
             >
               Ercaspay-SDK
             </ColoredLink>
+
+            <ColoredLink href="https://www.dshelf.store/">
+              DShelf
+            </ColoredLink>
+            
             <ColoredLink href="https://www.medistorepro.com/">
                 Medistorepro
             </ColoredLink>
-            <ColoredLink href="https://dshelf-rust.vercel.app/">
-              DShelf
-            </ColoredLink>
+           
         
           </div>
 
